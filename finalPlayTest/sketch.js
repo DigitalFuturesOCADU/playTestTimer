@@ -4,7 +4,7 @@ const PHONE_ASPECT_RATIO = 1472 / 2968; // width / height from phoneTemplate.png
 // Timer settings
 const TIMER_DURATION = 120; // 120 seconds (2 minutes)
 const FEEDBACK_DURATION = 420; // 420 seconds (7 minutes)
-const TIME_SCALE = 10; // Increase this to make timer run faster for testing (1 = real time, 10 = 10x faster)
+const TIME_SCALE = 1; // Increase this to make timer run faster for testing (1 = real time, 10 = 10x faster)
 
 let timerStartTime;
 let timerElapsed = 0;
